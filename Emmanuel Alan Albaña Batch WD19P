@@ -1,0 +1,210 @@
+<!DOCTYPE html> 
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <style>
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(205, 112, 50);
+            background-color: white;
+            background-image: url(assets/img/h2bg.jpg);
+            font-weight: bold;
+        }
+
+        .main_content {
+            width: 95%;
+            background-image: url(assets/img/indexbg1.jpg);
+            border-color: aliceblue;
+            border-bottom: 80%;
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            height: 900px;
+            margin: auto;
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        ul {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            line-height: 25px;
+        }
+
+        li {
+            color: rgb(50, 174, 205);
+            padding-left: 10px;
+        }
+
+        #div1,
+        #div2,
+        #div3,
+        #div4 {
+            /* div */
+            float: left;
+            width: 18%;
+            height: 550px;
+            background-image: url(assets/img/divbg.jpg);
+            border-bottom-right-radius: 80px;
+            margin-left: 15px;
+        }
+       
+        h2 {
+            /*  HTML WITH CSS */
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(205, 50, 146);
+            border-bottom-right-radius: 80px;
+            background-image: url(assets/img/h2bg.jpg);
+            padding-left: 15px;
+            margin-left: 20px;
+            width: 80%;
+        }
+
+        #h1_my_name {
+            /* h1 Manuel Albania - KODEGO |BATCH WD19P */
+            text-align: justify;
+            color: rgb(50, 205, 192);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 30px;           
+            background-image: url(assets/img/namebg.jpg);
+            border-color: rgb(255, 255, 255);
+            border-top-left-radius: 80px;
+            border-bottom-right-radius: 80px;
+            
+        }
+
+        #h1_my_exer {
+            /* h1 exercise */
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 20px;
+            color: rgb(50, 205, 179);
+        }
+
+        section {
+            padding: 5%;
+        }
+
+        #google {
+            width: 25px;
+            height: 25px;
+            padding: 2px;
+        }
+
+        #fb {
+            width: 25px;
+            height: 25px;
+            padding: 2px;
+        }
+
+        #kodego {
+            width: 25px;
+            height: 25px;
+            padding: 2px;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 30%;
+        }
+
+        #sec_icon {
+            padding-top: 560px;
+            padding-left: 15px;     
+        }
+
+       #sec_bootcamp {
+            color: azure;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 11px;
+            margin-top: -110px;
+            padding-top: none;
+            padding-left: 10px;
+            
+        } 
+        #imgkode {
+            
+            position: relative;
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main_content">
+        <div>
+            <h1 id="h1_my_name">Manuel Alan Albaña | BATCH WD19P</h1>
+        </div>
+        <h1 id="h1_my_exer">MY EXERCISES</h1>
+        <div id="div1">
+            <h2>HTML</h2>
+            <ul>
+                <li><a href="exer_1.html"> Exercise 1: Para &amp; comments</a></li>
+                <li><a href="exer_2.html"> Exercise 2: Lines &amp; breaks</a></li>
+                <li><a href="exer_3.html"> Exercise 3: Text formatting</a></li>
+                <li><a href="exer_4.html"> Exercise 4: Pre &amp; code tags</a></li>
+                <li><a href="exer_5.html"> Exercise 5: Resume HTML</a></li>
+                <li><a href="exer_6.html"> Exercise 6: Media</a></li>
+                <li><a href="exer_7.html"> Exercise 7: Table</a></li>
+                <li><a href="exer_8.html"> Exercise 8: Iframe</a></li>
+                <li><a href="exer_9.html"> Exercise 9: Form</a></li>
+            </ul>
+        </div>
+        <div id="div2">
+            <h2>WITH CSS</h2>
+            <ul>
+                <li><a href="exer_10.html"> Exercise 10: Basic CSS</a></li>
+                <li><a href="exer_11.html"> Exercise 11: Box Model</a></li>
+                <li><a href="exercise12.html"> Exercise 12: Positioning</a></li>
+                <li><a href="exer_13.html"> Exercise 13: Responsive</a></li>
+                <li><a href="./jscript/exer 14js.html"> Exercise 14: for Loop</a></li>
+                <li><a href="./jscript/exer 15js.html"> Exercise 15: While Loop</a></li>
+
+            </ul>
+        </div>
+        <div id="div3">
+            <h2>MINI PROJECTS</h2>
+            <ul>
+                <li><a href="index.html 5,M"> Project 1: Mini 1</a></li>
+                <li><a href="#"> Project 2:------</a></li>
+                <li><a href="dowhile.html"> Javascript</a></li>               
+               
+            </ul>
+            
+        </div>
+        <div id="div4">
+            <h2></h2>
+            <section>
+                <iframe</iframe>
+                <iframe</iframe>
+            </section>
+        </div>
+        <div>
+            <section id="sec_icon">
+                <a href="https://www.google.com"><img src="assets/img/google.png" id="google"></a>
+                <a href="https://www.facebook.com"><img src="assets/img/fbpix.png" id="fb"></a>
+                <a href="https://kodego.ph/"><img src="assets/img/kodego.png" id="kodego"></a>
+            </section>
+        </div>
+        <div>
+            <section id="sec_bootcamp">
+                <p>This is brought to you by <img src="assets/img/kodego.png" id="imgkode"> Bootcamp.. 2022 </p>
+            </section>
+        </div>
+    </main>
+
+
+</body></html>
